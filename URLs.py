@@ -8,5 +8,6 @@ Function views
   2. Add a URL urlpatterns: path('', views.home, name='home')
 Class-based views
   1. Add an import: from_other_app.views import Home
-  2. Add a URL to urlpatterns: 
-Includ
+  2. Add a URL to urlpatterns: path('', Home.as_views(), name='home')
+Including another conf
+  1. Import the include() function: from django.urls
