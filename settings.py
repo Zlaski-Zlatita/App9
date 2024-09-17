@@ -28,5 +28,12 @@ MIDDLEWARE = [
         'django.middleware.settingsSecurityMiddleware',
         'django.contrib.sessions.middlewareSessionMiddleware',
         'django.contrib.common.CommonMiddleware',
+        'django.middleware.csrf.CsrfViewMiddleware',
+        'django.contrib.auth.middlewareAuthenticationMiddleware',
+        'django.contrib.messages.middlewareMessageMiddleware',
+        'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+ROOT_URLCONF = 
   
 
