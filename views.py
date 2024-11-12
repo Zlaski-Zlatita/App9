@@ -4,4 +4,4 @@ def index(request):
   return render(request, 'core/Index.html')
 
 def contact(request):
-  return render(request, 'corr/contact.html')
+  return render(request, 'core/contact.html')
